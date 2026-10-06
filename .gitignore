@@ -1,0 +1,25 @@
+# Arduino 编译产物
+build/
+*.hex
+*.elf
+*.bin
+*.map
+*.eep
+*.lst
+
+# 第三方库（按需本地安装，不入库）
+libraries/
+
+# 敏感配置（WiFi / 服务器凭据）
+secrets.h
+config.h
+config.local.h
+
+# 编辑器与系统
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+.DS_Store
